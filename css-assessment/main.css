@@ -1,12 +1,12 @@
-@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
 html, a{
-    font-family: 'Helvetica Neue', sans-serif;
-    color: #3c3c3c
+    font-family: 'Roboto', sans-serif;
+    color: #3c3c3c;
 }
 main {
     width: 80%;
@@ -15,13 +15,22 @@ main {
 
 .nav {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
+.begin{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+.end{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
 .nav-item {
-  float: left;
+  font-weight: 500;
 }
 
 .nav-item a {
@@ -33,5 +42,54 @@ main {
 
 .title{
     color: black;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.button-style {
+    background: #8EE5D1;
+    border-radius: 2em;
+    padding: 0px 15px;
+}
+
+.hero {
+    display: flex;
+    min-height: 60vh;
+    margin: 10vh auto;
+    width: 100%;
+    align-items: center;
+}
+.text-hero{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.text-hero h1{
+    font-size: 3em;
+    color: black;
+}
+.text-hero p{
+    font-size: 1.5em;
+    padding: 1em 0;
+    color: #3c3c3c;
+    font-weight: 300;
+}
+.img-hero{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+
+}
+
+.img-hero img{
+    width: 80%;
+}
+.button-span-hero{
+    margin: 1em 0em;
+}
+.button-hero{
+    background: #8EE5D1;
+    border-radius: 2em;
+    padding: 15px 25px;
+    text-decoration: none;
 }
