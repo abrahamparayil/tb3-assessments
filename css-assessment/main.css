@@ -131,5 +131,35 @@ input[type=submit] {
   font-weight:700;
 }
 .why-choose{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh auto;
+}
+.header-why{
+    text-align: center;
+    width: 65%;
+    margin: 5vh auto;
+}
+.header-why h2{
+    margin: 0.5em;
+}
+.items-why{
+    display: flex;
+}
 
+.item-why{
+    background: #F4F7FA;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+.item-why h3, .item-why p{
+    padding: 0.25em;
+}
+.item-why span{
+    color: #8EE5D1;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 3em 0;
 }
