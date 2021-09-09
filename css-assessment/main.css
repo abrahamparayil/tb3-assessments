@@ -181,13 +181,14 @@ footer{
 .about-story{
     width: 40%;
     margin: auto;
+    padding: 5vh auto auto auto;
 }
 .contact{
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     width: 40%;
-    margin: auto;
+    margin: auto auto 5vh auto;
     justify-content: flex-end;
     text-align: right;
 }
@@ -206,13 +207,27 @@ footer{
     .img-hero{
         justify-content: center;
     }
-    .book form{
+    .book form {
         width: 100%;
     }
     .book{
         width: 100%;
     }
+    .about-story, .contact, .why-choose{
+        width: 80%;
+    }
     .contact{
         text-align: left;
+    }
+    input[type=text], select{
+        width: 80%;
+        padding: 0 auto;
+        margin: 0;
+
+    }
+    input[type=submit] {
+        width: 80%;
+        margin: 0;
+        padding: 0 auto;
     }
 }
