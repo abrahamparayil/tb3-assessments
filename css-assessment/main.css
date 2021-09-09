@@ -20,6 +20,9 @@ main {
   width: 80%;
   margin: auto;
 }
+.normal-nav{
+    display: flex;
+}
 
 .begin{
     flex: 2;
@@ -30,6 +33,7 @@ main {
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    align-items: center;
 }
 .nav-item {
   font-weight: 500;
@@ -189,4 +193,26 @@ footer{
 }
 .about-story h2, .contact h2{
     padding: 1em 0;
+}
+
+@media screen and (max-width: 640px){
+
+    .normal-nav{
+        display: none;
+    }
+    .hero, .book form, .items-why, footer{
+        flex-direction: column;
+    }
+    .img-hero{
+        justify-content: center;
+    }
+    .book form{
+        width: 100%;
+    }
+    .book{
+        width: 100%;
+    }
+    .contact{
+        text-align: left;
+    }
 }
