@@ -230,4 +230,17 @@ footer{
         margin: 0;
         padding: 0 auto;
     }
+    .nav{
+        width: 90%;
+    }
+    .begin{
+        flex:2;
+    }
+    .end{
+        flex: 1;
+    }
+    .text-hero{
+        margin-bottom: 1em;
+        justify-content: center;
+    }
 }
